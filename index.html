@@ -36,20 +36,20 @@
     position: fixed; top: 0; left: 0; right: 0;
     z-index: 100;
     display: flex; align-items: center; justify-content: space-between;
-    padding: 18px clamp(20px, 5vw, 72px);
+    padding: 12px clamp(20px, 5vw, 72px);
     background: rgba(8,8,16,0.8);
     backdrop-filter: blur(16px);
     border-bottom: 1px solid var(--border);
   }
 
-  .nav-logo img { width: clamp(100px, 16vw, 150px); height: auto; }
+  .nav-logo img { width: clamp(80px, 12vw, 110px); height: auto; }
 
   .nav-links {
-    display: flex; gap: 32px; list-style: none;
+    display: flex; gap: 24px; list-style: none;
   }
 
   .nav-links a {
-    font-size: 14px; font-weight: 500;
+    font-size: 13.5px; font-weight: 500;
     color: var(--muted); text-decoration: none;
     transition: color 0.2s;
   }
@@ -59,8 +59,8 @@
   .nav-cta {
     background: var(--purple);
     color: #fff !important;
-    padding: 9px 22px;
-    border-radius: 10px;
+    padding: 7px 16px;
+    border-radius: 8px;
     font-weight: 600 !important;
     transition: background 0.2s, transform 0.15s !important;
   }
